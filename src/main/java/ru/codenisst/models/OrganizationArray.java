@@ -4,14 +4,14 @@ import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name = "organizations")
-public class OrganisationArray {
+public class OrganizationArray {
 
     private Organization[] organizationsArray;
 
-    public OrganisationArray() {
+    public OrganizationArray() {
     }
 
-    public OrganisationArray(Organization[] organizationsArray) {
+    public OrganizationArray(Organization[] organizationsArray) {
         this.organizationsArray = organizationsArray;
     }
 
